@@ -7,7 +7,15 @@
       "bytecodeHash": "83cb3b4e80f79c781380024e9118f0d16d33eab3701d5bec5e4822c4d9826b56"
     }
   },
-  "proxies": {},
+  "proxies": {
+    "MyContract": [
+      {
+        "address": "0x87ba7a045919123d06f2e4b1f9299d548f9ea982",
+        "version": "0.1.0",
+        "implementation": "0x1bfc7e8a8638c06e5993de2d9844f2f542a2fcba"
+      }
+    ]
+  },
   "app": {
     "address": "0x94dbc3a51dcb94bf2657fb7439437784d946cd23"
   },
