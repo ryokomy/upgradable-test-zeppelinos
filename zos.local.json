@@ -1,10 +1,10 @@
 {
   "contracts": {
     "MyContract": {
-      "address": "0x1bfc7e8a8638c06e5993de2d9844f2f542a2fcba",
-      "constructorCode": "608060405234801561001057600080fd5b50610b0d806100206000396000f300",
-      "bodyBytecodeHash": "c829d0f89f2ee73f114364b2473387ebd483822f0418b301c33c988f531b989e",
-      "bytecodeHash": "83cb3b4e80f79c781380024e9118f0d16d33eab3701d5bec5e4822c4d9826b56"
+      "address": "0x98e37dbd99a64dac6f8daf3619f554e38586d298",
+      "constructorCode": "608060405234801561001057600080fd5b50610b41806100206000396000f300",
+      "bodyBytecodeHash": "717154087463886acb601d938566bb6c7de999740aabb982fd0482f7c9912a52",
+      "bytecodeHash": "21e1bb523d1f9eb543d9a164160623d69cb2a09d9ac3a37ff8dbdb87dec55b71"
     }
   },
   "proxies": {
@@ -12,7 +12,7 @@
       {
         "address": "0x87ba7a045919123d06f2e4b1f9299d548f9ea982",
         "version": "0.1.0",
-        "implementation": "0x1bfc7e8a8638c06e5993de2d9844f2f542a2fcba"
+        "implementation": "0x98e37dbd99a64dac6f8daf3619f554e38586d298"
       }
     ]
   },

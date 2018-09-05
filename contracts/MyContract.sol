@@ -1,4 +1,3 @@
-pragma solidity ^0.4.21;
 import "zos-lib/contracts/migrations/Migratable.sol";
 
 contract MyContract is Migratable {
@@ -6,5 +5,9 @@ contract MyContract is Migratable {
 
   function initialize(uint256 _x) isInitializer("MyContract", "0") public {
     x = _x;
+  }
+
+  function increment() public {
+    x += 1;  
   }
 }
