@@ -1,5 +1,7 @@
 {
   "name": "upgradable-test-zeppelinos",
   "version": "0.1.0",
-  "contracts": {}
+  "contracts": {
+    "MyContract": "MyContract"
+  }
 }
